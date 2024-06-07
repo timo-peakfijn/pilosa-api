@@ -32,6 +32,23 @@
 $ npm install
 ```
 
+Make sure you have Docker installed and running.
+
+```bash
+$ cd docker
+$ docker-compose up
+```
+
+```bash
+$ npm run migration:run
+```
+
+If you don't have playwright installed, run:
+
+```bash
+$ npx playwright install
+```
+
 ## Running the app
 
 ```bash
